@@ -1,0 +1,18 @@
+{
+	"name":"Objectwave Magento2 Components",
+	"homepage":"https:\/\/satis.objectwave.com",
+	"repositories":[
+		{
+			"type":"git",
+			"url":"imiranda@gitserver.objectwave.com:git\/ow-m2-infinite-scroll.git\/"
+		},
+		{
+			"type":"git",
+			"url":"imiranda@gitserver.objectwave.com:git\/ow-m2-hub.git\/"
+		}
+	],
+	"require-all":false,
+	"require-dependencies":false,
+	"require-dev-dependencies":false,
+	"minimum-stability":"dev"
+}

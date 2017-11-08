@@ -1,0 +1,11 @@
+satis:
+    image: ypereirareis/docker-satis:latest
+    volumes:
+        - ~/.ssh/id_rsa:/var/tmp/id
+        - ~/.ssh/config:/var/tmp/sshconf
+        - ./composer:/root/.composer
+        - ./config/config.json:/app/config.json
+        - ./config/config.php:/app/config.php
+    ports:
+        - 5001:3333
+        - 5000:80
